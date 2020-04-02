@@ -20,11 +20,9 @@ eleves["Abdelkrim"]=["Souleyman","Zack","Zoureni"]
 eleves["Souleyman"]=[]
 eleves["Zack"]=[]
 
-
-def search(name):
-   print( len(eleves.values()) )
-   return False
+def main():
+   print('Informatique: le rêve')
 
 if __name__== "__main__":
-   search("Boris")
+    main()
 
