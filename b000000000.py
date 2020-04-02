@@ -20,8 +20,14 @@ eleves["Abdelkrim"]=["Souleyman","Zack","Zoureni"]
 eleves["Souleyman"]=[]
 eleves["Zack"]=[]
 
-def main():
-   print('Informatique: le rêve')
+
+def search(name):
+   search_queue = deque()
+   search_queue += eleves[name]
+   print( len(search_queue) )
+   return False'
+
+from collections import deque
 
 if __name__== "__main__":
     main()
